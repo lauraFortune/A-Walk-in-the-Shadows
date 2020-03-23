@@ -1,5 +1,5 @@
 # A Walk In The Shadows
-Digital Multimedia group project designed to showcase - video, audio and image editing and manipulation. 'A Walk in the Shadows' is a ficticious website promoting haunted walking tours of Dublin. The overall style of the site takes 1970s horror film graphics and fonts reveals in a linear “unveiling” narrative scroll.
+Digital Multimedia group project designed to showcase - video, audio and image editing and manipulation. 'A Walk in the Shadows' is a fictitious website promoting haunted walking tours of Dublin. The overall style of the site takes 1970s horror film graphics and fonts reveals in a linear “unveiling” narrative scroll.
 <br><br>
 My contribution involved:
   - Designing and building of webpage
