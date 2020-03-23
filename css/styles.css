@@ -1,0 +1,402 @@
+/*################FONTS##############
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+################END FONTS############*/
+
+
+/*#############BODY##################*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: lightgrey;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-family: 'Almendra Display', cursive;
+    }
+/*#############END BODY##################*/
+#logoBanner{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+/*##########RESPONSIVE BLOCKS- FLEX########*/
+.container{/*holds elements*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+       /*margin: 0 0%;*/
+    }
+.element { /*element wrap*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 0%;
+    padding: 1.5%;
+    width: 600px;
+    object-fit: cover;
+    }
+/*#######END RESPONSIVE BLOCKS - FLEX########*/
+
+/*##########RESPONSIVE CARD ELEMENTS########*/
+.card .element img {
+    display: flex;
+    margin: 5%;
+    height:500px;
+    width: calc(20rem + 22vw);
+    object-fit: cover;
+    
+    }
+    
+.card .element {
+    padding-left: 5%;
+    padding-right: 5%
+}
+.card{
+   
+    flex-wrap: wrap;
+    margin: 0 0%;  
+    margin: 2%;
+    color: black;
+    
+}
+
+.card .element{
+   
+    width: calc(20rem + 22vw);
+}
+.border{
+    border: 1px solid rgba(146, 148, 147, 0.2) ;
+    box-shadow: 15px 15px 20px rgba(146, 148, 147, 0.2);
+  
+}
+
+/*##########END RESPONSIVE CARD ELEMENTS########*/
+
+/*##########BACKGROUNDS###########*/
+.imageBreaker1{
+    background: url(../john/logo-1920x1080.png);
+    background-attachment: fixed; /*creates paralax effect */
+    width: 100%;
+   height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+.imageBreaker2{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 1)),  url(../images/banner2.png);
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover; 
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bgImage {
+    background: linear-gradient(rgba(150, 138, 137, .1), rgba(0, 0, 0, 0)), url(../images/banner2.jpg);
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover;
+    }  
+
+.padding{
+    min-height: 100vh;
+  }
+
+
+  #gradient_wrap{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(4,12,12,0.6) 25%, rgba(4,12,12,0.8) 50%, rgba(4,12,12,0.9) 75%,rgba(4,12,12,0.94) 100%);
+    min-height: 100Vh;
+    
+   }
+
+   #image1{
+    background: linear-gradient(rgba(93, 184, 187, 0), rgba(0, 0, 0, .7)), url(../images/banner2.png); 
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover;
+
+    }
+   
+   
+    .bg {
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+ /*#########END BACKGROUNDS########*/ 
+
+
+/*########### FORM ###########*/
+.validate{
+  border-radius: 5px;
+  padding: 2em 4em 6em 2em;
+  width: 100%;
+  background: rgba(19, 21, 22, 0.25);
+}
+.validate p{
+    display: flex;
+    justify-content: center;
+    color: rgb(230, 102, 88);
+    font-size: 1.4rem;
+}
+input, textarea{
+  width: 100%;
+  display: block;
+  height: 50px;
+  background: rgba(5, 17, 19, 0.8);
+  outline: none;
+  border: 1px solid rgba(5, 17, 19, 0.5);
+  margin-bottom:5%;
+  padding-left: 5%;
+  border-radius: 5px;
+  font-size: calc(1rem + .4vw);
+  color: white;
+  overflow: hidden;
+}
+button{
+  float: right;
+  width: 140px;
+  height: 50px;
+  color: white;
+  background-color: transparent; background-color: rgba(7, 127, 163, 0.45);
+  background-color:rgb(66, 173, 125);
+  /*background-color:rgba( 22, 230, 137, 1 );*/
+  outline: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+/*########### END FORM ###########*/
+
+/*######### TITLE TEXT #########*/
+.title{
+    font-size: calc(3rem + .9vw);
+    margin: 0 0 2% 8%;   
+    color: rgba(116, 129, 125, 0.7);
+    font-weight: bold;
+    font-family: 'Nosifer', cursive;
+  }
+
+  .titleMargin{
+      margin-top: 50vh; 
+  }
+
+  .title2{
+    font-size: calc(2rem + .6vw);
+    margin: 0 0 2% 8%;  
+    width: 40%;
+    color: rgb(253, 247, 247);
+}
+
+.hl { /* horizontal line */
+    width: 30%;
+    border: 1px solid rgb(97, 94, 94);
+    transition: width 4s ease, border 4s ease;   
+  }
+  
+  .margin{
+    width: 30%;
+    padding-top: 5%;
+    margin-left: 8%;
+  }
+    /* end margin */
+/*######### END TITLE TEXT #########*/
+
+/*################## TEXT #################*/
+  .blackTextSml {
+    text-align: left; 
+    font-size: calc(.8rem + .5vw);
+    color: black;
+    margin: 2% 2% 2% 1%;
+ 
+}
+
+  .whiteTitle2 {
+    font-size: calc(1.5rem + .6vw);
+    font-weight: bold;
+    color: rgba(116, 129, 125, 0.7);
+    padding: 10%;
+}
+.quote {
+    font-size: calc(2.5rem + .6vw);
+    font-weight: bold;
+    color: rgba(116, 129, 125, 0.7);
+    padding: 10%;
+}
+.textCenter {
+    margin: 10% 10%;
+    text-align: center; /*horizontally align*/
+    align-self: center;/*vertically allign*/
+    font-size: calc(2rem + .6vw);
+    color: rgb(245, 240, 240);
+   
+  }
+.redFont{
+    color: rgb(133, 64, 64);
+}
+/*################## END TEXT #################*/
+
+/*############# RESEARCH ################*/
+.research{
+    display: none;
+}
+#revealResearch{
+    background-color:rgba( 22, 230, 137, 1 );
+    background-color:rgb(66, 173, 125);
+}
+/*############# END RESEARCH ################*/
+
+/*############# JQUERY EFFECTS ################*/
+.readmore1{
+    display: none;
+}
+.readmore2{
+    display: none;
+}
+
+/*############# END JQUERY EFFECTS ################*/
+/*############# END VIDEO ################*/
+video{
+  
+   width: calc(15rem + 55vw);
+    margin: 8% 0 8% 0;
+    position: relative;
+    outline: none;
+    
+}
+/*############# END VIDEO ################*/
+
+/*############# START MODAL GALLERY################*/
+#show{
+    cursor: pointer;
+    transition: .3s;
+}
+
+#show:hover {
+    opacity: .7;
+}
+
+
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 70%;
+
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* adds animation - image zooms on open*/
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  } 
+  /* end animation*/
+   
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+/*############# END MODAL GALLERY################*/
+
+
+i {
+    border: solid grey;
+    border-width: 0 3px 3px 0;
+    padding: 10px;
+    margin-bottom: 3%;
+
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+i:hover {
+  
+}
+
+
+/*##### SOUND GARDEN ######*/
+#soundGarden {
+    margin: 0 15% 0 0;
+    width: calc(8rem + 50vw);
+    outline: none;
+}
+.soundGardenBtn{
+    margin: 0 30% 0 0;
+    padding: 0;
+    height: 20%;
+    border-radius: 100%;
+    background-color:rgb(66, 173, 125, 0.3);
+}
+#keyboard{
+
+   flex-direction: row-reverse;
+   padding-bottom: 2%;
+
+}
+/*##### SOUND GARDEN #####*/
+
