@@ -23,7 +23,9 @@ My contribution:
 ![moodboard](https://user-images.githubusercontent.com/48602973/77335857-a2714480-6d1e-11ea-9331-8b93f90cd66a.png)
 
 ### Video/audio
-![walk](https://user-images.githubusercontent.com/48602973/77342947-dbaeb200-6d28-11ea-947b-2fc0ec229492.jpg)
+[![walk](https://user-images.githubusercontent.com/48602973/77342947-dbaeb200-6d28-11ea-947b-2fc0ec229492.jpg)](https://www.youtube.com/watch?v=M9zlMOmQr7s)
+
+
 
 ## Screenshots 
 
