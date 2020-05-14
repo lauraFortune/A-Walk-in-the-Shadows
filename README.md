@@ -36,7 +36,7 @@ My contribution:
 
 ## Acknowledgments
 #### Team mates:
-- John MacDougal- Logo
+- John MacDougal - Logo
 - Igors Obuhovs - Audio track for Sound Garden video
 #### Audio Samples:
 - Creator: [Geoneo0](https://freesound.org/people/geoneo0/)
