@@ -1,10 +1,13 @@
 # A Walk In The Shadows
+[walkintheshadows.000webhostapp.com]{(http://walkintheshadows.000webhostapp.com/)<br><br>
+
+
 Digital Multimedia group project designed to showcase - video, audio and image editing and manipulation. 'A Walk in the Shadows' is a fictitious website promoting haunted walking tours of Dublin. The overall style of the site takes 1970s horror film graphics and fonts reveals in a linear “unveiling” narrative scroll.
 <br><br>
 My contribution:
-  - Complete design and build of webpage
+  - Complete design and development of website HTML, CSS and Javascript.
   - Filming and editing of video footage
-  - Manipulation and editing of images 
+  - Manipulation and editing of Images 
   - Recording and editing of audio samples 
   
 ## Built With
