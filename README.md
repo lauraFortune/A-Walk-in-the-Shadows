@@ -1,5 +1,5 @@
 # A Walk In The Shadows
-[walkintheshadows.000webhostapp.com]{(http://walkintheshadows.000webhostapp.com/)<br><br>
+[walkintheshadows.000webhostapp.com](http://walkintheshadows.000webhostapp.com/)<br><br>
 
 
 Digital Multimedia group project designed to showcase - video, audio and image editing and manipulation. 'A Walk in the Shadows' is a fictitious website promoting haunted walking tours of Dublin. The overall style of the site takes 1970s horror film graphics and fonts reveals in a linear “unveiling” narrative scroll.
